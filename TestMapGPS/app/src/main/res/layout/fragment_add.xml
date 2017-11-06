@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.tawin.testmapgps.add.Add_Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editIuput"
+            android:hint="@string/Input"
+            android:layout_marginTop="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editIuput"
+            android:text="Add Event"
+            android:id="@+id/addEventButton"/>
+
+
+        <Button
+            android:id="@+id/voiceBut2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/addEventButton"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="11dp"
+            android:background="@android:drawable/presence_audio_busy"
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
